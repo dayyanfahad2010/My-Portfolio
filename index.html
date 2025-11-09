@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="nav-bar" id="home">
+        <div class="main-nav">
+            <h3>Dayyan</h3>
+            <nav id="nav">
+                <img src="assets/images/close-menu.png" id="close" class="menuimg close" onclick="closemenu()">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+            <img src="assets/images/menu-icon.png" id="open" class="menuimg" onclick="openmenu()">
+        </div>
+        <div class="main-header">
+            <div class="sub-main">
+                <h6>Hello!</h6>
+                <h1>I'm <span>Dayyan <br>Fahad</span></h1>
+                <h5>A web developer</h5>
+                <p>I'm a passionate Frontend Developer focused on creating responsive, user-friendly, and visually appealing web interfaces. I specialize in HTML, CSS, Bootstrap, and JavaScript to build modern websites that deliver smooth user experiences across all devices..</p>
+                <button class="btn first-btn">Hire me</button>
+                <button class="btn" onclick="setTimeout(()=>{window.location.href='#projects'},1000)">My Work</button>
+            </div>
+            <div class="sub-main img-div">
+                <img src="assets/images/dayyan-photo1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutme" id="about">
+        <div class="main-header">
+            <div class="main-column about-img-div">
+                <img src="assets/images/dayyan-photo3.png" >
+            </div>
+            <div class="main-column">
+                <h2>About Me</h2>
+                <p> I enjoy turning ideas into functional designs — from clean layouts and animations to dynamic, interactive components. My projects reflect a strong eye for detail, performance optimization, and usability.</p>
+                <div class="flex">
+                    <p id="label">Name:</p>
+                    <p id="value">Dayyan Fahad</p>
+                </div>
+                <div class="flex">
+                    <p id="label">Date of Birth:</p>
+                    <p id="value">19-feb-2010</p>
+                </div>
+                <div class="flex">
+                    <p id="label">Email:</p>
+                    <p id="value">dayyanfahad20@gmail.com</p>
+                </div>
+                <div class="flex">
+                    <p id="label">Phone:</p>
+                    <p id="value">+92 3172324630</p>
+                </div>
+                <div class="flex">
+                    <p id="label">Address:</p>
+                    <p id="value">North Karachi,Pakistan</p>
+                </div>
+                <div class="flex">
+                    <p id="label">Zip Code:</p>
+                    <p id="value">71500</p>
+                </div>
+                <button class="btn first-btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="resume-div">
+            <h2 class="resume-heading">Resume</h2>
+            <div class="row">
+                <div class="resume ">
+                    <h2 class="heading">2025</h2>
+                    <h2>Matric</h2>
+                    <p>Al-Hidayah Academy School</p>
+                    <p>I've completed my matric from Al-Hidayah Academy School in Computer Science</p>
+                </div>
+                <div class="resume ">
+                    <h2 class="heading">2025-2027</h2>
+                    <h2>Intemediate</h2>
+                    <p>Adamjee Govt. College</p>
+                    <p>I've currently studying Adamjee College for completing my Intermediate</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="resume ">
+                    <h2 class="heading">2025-2026</h2>
+                    <h2>Internship as a Frontend <br>Developer</h2>
+                    <p>Saylani Mass IT Trainig</p>
+                    <p>I've completed my frontend development course from saylani.I'm currently learning full stack web development from saylani</p>
+                </div>
+                <div class="resume ">
+                    <h2 class="heading">2025</h2>
+                    <h2>Internship as a MS office</h2>
+                    <p>Bano Qabil</p>
+                    <p>I've completed my CIT course from Bano Qabil in 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id= "skills">
+        <h2>MY Skills</h2>
+        <div class="skills-main">
+            <h4>HTML</h4>
+            <input type="range" min="0" max="100" value="95" disabled class="no-thumb fill-95">
+            <h4>CSS</h4>
+            <input type="range" min="0" max="100" value="90" disabled class="no-thumb fill-90">
+            <h4>Bootstrap</h4>
+            <input type="range" min="0" max="100" value="85" disabled class="no-thumb fill-85">
+            <h4>JavaScript</h4>
+            <input type="range" min="0" max="100" value="80" disabled class="no-thumb fill-80">
+        </div>
+    </section>
+
+    <div id="projects">
+        <h2>MY Projects</h2>
+        <div class="project-main">
+            <div class="project">
+                <img src="assets/images/login-signup-with-todolist.jpg" >
+                <div class="information-div">
+                    <h5>Login Signup System with ToDo list</h5>
+                    <h5>HTML,CSS and Javascript</h5>
+                    <button id="todolist-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/github-fetcher.jpg" >
+                <div class="information-div">
+                    <h5>Github Profile Fetcher</h5>
+                    <h5>HTML,CSS and Javascript</h5>
+                    <button id="github-preview" class="preview" onclick="window.open('https://github-profile-fetcher-30.netlify.app/','_blank')">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/facebook-login-signup.jpg" >
+                <div class="information-div">
+                    <h5>Facebook Style Signup Login System</h5>
+                    <h5>HTML,CSS and Javascript</h5>
+                    <button id="login-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/digital-clock.jpg" >
+                <div class="information-div">
+                    <h5>Digital Clock(24 hours and 12 hour formats switching)</h5>
+                    <h5>HTML,CSS and Javascript</h5>
+                    <button id="clock-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/hackathon-project.jpg" >
+                <div class="information-div">
+                    <h5>HTML CSS Hackathon Project</h5>
+                    <h5>HTML,CSS and bootstrap</h5>
+                    <button id="hackathon-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/burger-shop-website.jpg" >
+                <div class="information-div">
+                    <h5>Fast Food Website</h5>
+                    <h5>HTML,CSS and bootstrap</h5>
+                    <button id="burger-website-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/ecommerce-website.jpg" >
+                <div class="information-div">
+                    <h5>Ecommerce Website</h5>
+                    <h5>HTML and CSS </h5>
+                    <button id="ecommerce-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/university-website.jpg" >
+                <div class="information-div">
+                    <h5>Educational Website</h5>
+                    <h5>HTML,CSS</h5>
+                    <button id="educational-website-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/robotics-webpage.jpg" >
+                <div class="information-div">
+                    <h5>Robotics Webpage</h5>
+                    <h5>HTML,CSS</h5>
+                    <button id="robotics-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/dropdown-menu.jpg" >
+                <div class="information-div">
+                    <h5>DropDown Menu</h5>
+                    <h5>HTML,CSS</h5>
+                    <button id="dropdown-preview" class="preview">Live Preview</button>
+                    <button class="preview details">Details</button>
+                </div>
+            </div>
+        </div>
+        <button id="loadmore">Load More</button>
+    </div>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact">
+            <div>
+                <i class="fa fa-map-marker" style="font-size:48px"></i><br>
+                <span>Address</span><br>
+                <span>Karachi,Pakistan</span>
+            </div>
+            <div>
+                <i class='fa fa-envelope-open' style='font-size:48px'></i><br>
+                <span>Email:</span><br>
+                <span>dayyanfahad20@gmail.com</span>
+            </div>
+            <div>
+                <i class="fa fa-phone" style="font-size:48px"></i><br>
+                <span>Phone</span><br>
+                <span>+92 3172324630</span>
+            </div>
+            <div>
+                <i class="fa fa-github" style="font-size:48px"></i><br>
+                <span>Github id</span><br>
+                <span>dayyanfahad2010</span>
+            </div>
+        </div>
+        <div class="contact-flex">
+            <div class="contact-img">
+                <img src="assets/images/dayyan-photo3.png" alt="">
+            </div>
+            <div class="contact-form">
+                <form >
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="text" placeholder="Enter Your Email">
+                    <input type="text" placeholder="Enter Your Subject">
+                    <textarea  placeholder="Enter your Message" cols="50"
+                    rows="7"></textarea>
+                    <button class="btn contact-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-div">
+                <h3>About</h3>
+                <p> I specialize in HTML, CSS, Bootstrap, and JavaScript to build modern websites that deliver smooth user experiences across all devices..</p>
+                <a href="https://www.linkedin.com/in/dayyan-fahad-6b95a8340/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px;color:#1e1e1e"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61580408035162" target="_blank"><i class="fa fa-facebook-f" style="font-size:36px;color:#1e1e1e"></i></a>
+                <a href="https://github.com/dayyanfahad2010" target="_blank"><i class="fa fa-github" style="font-size:36px;color:#1e1e1e"></i></a>
+            </div>
+            <div class="footer-div">
+                <h3>Links</h3>
+                <div class="second-footer-div">
+                    <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                    <a href="#home">Home</a><br>
+                    <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                    <a href="#about">About</a><br>
+                    <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                    <a href="#resume">Resume</a><br>
+                    <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                    <a href="#projects">Projects</a><br>
+                    <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                    <a href="#contact">Contact</a><br>
+                </div>
+            </div>
+            <div class="footer-div">
+                <h3>Services</h3>
+                <i class="fa fa-arrow-right" style="font-size:24px;color:#1e1e1e"></i>
+                <span>Frontend Development</span>
+            </div>
+            <div class="footer-div">
+                <h3>Have a Question?</h3>
+                <i class="fa fa-map-marker" style="font-size:24px;color:#1e1e1e"></i>
+                <span>R-50 ,Sector-9 ,North Karachi,Pakistan</span><br>
+                <i class="fa fa-phone" style="font-size:24px;color:#1e1e1e"></i>
+                <span>+92 317 2324630</span><br>
+                <i class="fa fa-envelope" style="font-size:24px;color:#1e1e1e"></i>
+                <span>dayyanfahad20@gmail.com</span>
+            </div>
+        </div>
+        <p>Copyright ©2025 All rights reserved</p>
+    </footer>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
