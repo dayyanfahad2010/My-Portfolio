@@ -31,4 +31,4 @@ Showcases my projects, skills, and creativity with a modern, responsive, and int
 ---
 
 ## 🌍 Live Demo
-🔗 [View Portfolio](https://yourusername.github.io/portfolio/)  
+🔗 [View Portfolio](https://dayyan-fahad-portfolio.netlify.app/)  
