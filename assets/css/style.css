@@ -553,8 +553,15 @@ footer p{
         margin: 10px;
     }
     .skills-main input{
-        width: 300px;
+        width: 250px;
+        margin-left: 0;
+        padding-left: 0;
     }
+    #skills{
+        width: 100%;
+        margin: 10px auto;
+    }
+
     #skills h2{
         font-size: 30px;
         text-shadow: none;
