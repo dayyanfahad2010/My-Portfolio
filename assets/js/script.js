@@ -37,6 +37,8 @@ projectdiv[8].style.display='none'
 projectdiv[9].style.display='none'
 projectdiv[10].style.display='none'
 projectdiv[11].style.display='none'
+projectdiv[12].style.display='none'
+projectdiv[13].style.display='none'
 loadMoreBtn.onclick=()=>{
     if(loadMoreBtn.textContent==="Load More"){
         projectdiv[6].style.display='block'
@@ -45,6 +47,8 @@ loadMoreBtn.onclick=()=>{
         projectdiv[9].style.display='block'
         projectdiv[10].style.display='block'
         projectdiv[11].style.display='block'
+        projectdiv[12].style.display='block'
+        projectdiv[13].style.display='block'
         loadMoreBtn.textContent="Load less"
     }
     else if(loadMoreBtn.textContent==="Load less"){
@@ -54,6 +58,8 @@ loadMoreBtn.onclick=()=>{
         projectdiv[9].style.display='none'
         projectdiv[10].style.display='none'
         projectdiv[11].style.display='none'
+        projectdiv[12].style.display='none'
+        projectdiv[13].style.display='none'
         loadMoreBtn.textContent="Load More"
     }
 }
